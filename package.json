@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "portfolio",
   "main": "index.ts",
+
   "scripts": {
-    "start": "node server/index.ts",
+    "start": "nodemon server/index.ts",
     "dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pld208/portfolio2.git"
@@ -17,9 +19,9 @@
   "bugs": {
     "url": "https://github.com/pld208/portfolio2/issues"
   },
-  "homepage": "https://github.com/pld208/portfolio2#readme",
+  "homepage": "https://github.com/pld208/portfolio2#client#dist#index.html",
   "dependencies": {
-    "@types/react": "^17.0.13",
+
     "express": "^4.17.1",
     "nodemon": "^2.0.9",
     "path": "^0.12.7",
@@ -27,6 +29,7 @@
     "react-dom": "^17.0.2",
     "style-loader": "^3.0.0",
     "@types/express": "^4.17.12",
+    "@types/react": "^17.0.13",
     "eslint": "^7.30.0",
     "ts-loader": "^9.2.3",
     "ts-node": "^10.0.0",
