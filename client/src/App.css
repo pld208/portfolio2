@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* @import "bootstrap/dist/css/bootstrap.css"; */
+
+:root {
+  --primary-white: #ffffff;
+  --primary-lightBlue: "lightblue";
+  --primary-pink: rgb(202, 10, 250);
+  --primary-dark: "black";
+  --primary-lime: rgb(29, 201, 231);
+  --primary-hover-lime: "";
+  --primary-purple: rgb(38, 9, 104);
+  --primary-black: #000000;
+}
+body {
+  font-family: "Roboto Condensed" sans-serif;
+  color: lightblue;
+  background-color: black;
+}
+
+h1 {
+  color: lightblue
+}
+
+/* ------ MENU LINKS ------- */
+
+nav {
+  z-index: 4;
+}
+
+ nav a.nav-link {
+  letter-spacing: .0375rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-lime) !important;
+
+}
+
+#links {
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  max-width: 0.1875rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-pink);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-pink);
+}
+
+.navbar {
+  background-color: black;
+}
+/* ------------- Header ------------ */
+
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-lightBlue);
+}
+
+.header-wrapper {
+  position: relative;
+  background: url("https://i.ibb.co/r7vGyPD/website-Background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.btn-contact {
+  border: 2px solid var(--primary-lime);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-lightBlue);
+  margin: 10rem;
+}
+
+.main-info > .btn-contact a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color:rgb(202, 10, 250);
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* -----PARTICLES JS ------- */
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* ------AboutMe--------- */
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selfImage {
+  width: 40rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 2px solid var(--primary-lime);
+}
+
+.about-heading {
+  color: var(--primary-lime);
+  text-transform: uppercase;
+}
+
+.circle {
+  padding: 1rem;
+}
+
+.contactImages li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.contactImage > li > a:hover {
+  color: var(--primary-pink);
+  cursor:pointer;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume > a:hover {
+  color: var(--primary-pink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
+}
+
+/* ------Skills--------- */
+.skills {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: var(--primary-purple)
+}
+.skillsTitle {
+  color: var(--primary-lime);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+/* ------ Portfolio ----------- */
+.portfolio-wrapper {
+  position: relative;
+  background: url("https://i.ibb.co/r7vGyPD/website-Background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
+  color: black;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid var(--primary-lime);
+  padding: 0 0.5rem;
+}
+
+.text-uppercase {
+  color: var(--primary-lime)
+}
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+    opacity: 0;
+    background: var(--primary-black);
+    width: 15rem;
+    height: 8rem;
+    top: 0;
+
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover {
+  opacity: 90%;
+  transition: 0.3s ease-in-out;
+  background-color: var(--primary-pink)
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: var(--primary-pink);
+  font-size: 2rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-lime);
+}
+
+.hyper-link:hover {
+  cursor: pointer;
+  color: var(--primary-pink);
+}
+
+.popupbox-wrapper {
+  background-color: black;
+  margin-top: 7rem;
+}
+
+.popupbox-content {
+  background-color: rgba(171, 207, 207, 0.986);
+  max-width: 25rem;
+  overflow-y: scroll;
+}
+
+.p-popupbox {
+  color: var(--primary-lightBlue);
+}
+/* -------- MEDIA -------- */
+@media(max-width: 768px) {
+  .portfolio-image-popupbox {
+  width: 100%;
+}
+}
+
+@media(max-width: 500px) {
+  .popupbox-wrapper {
+    height: 100% !important;
+  }
+}
+
+@media(max-height: 500px) {
+  .portfolio-image-popupbox {
+  width: 100%;
+}
+}
+
+/* -------- CONTACT ME -------- */
+.contacts {
+  background: var(--primary-black);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-lime);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-lightBlue);
+  font-size: 1.2rem;
+}
+
+/* ------- INPUTS --------- */
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid var(--primary-purple);
+  border-radius: 0;
+  color: var(--primary-lightBlue);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 2px solid var(--primary-purple);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.btn-contact2 {
+  border: 2px solid var(--primary-lime);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-lightBlue);
+  margin: 1rem 0 0 0;
+  background-color: var(--primary-black);
+  width: 100%;
+}
+
+.btn-contact2:hover {
+  text-decoration: none;
+  background-color:rgb(202, 10, 250);
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-pink);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+/*------- MEDIA ---------- */
+@media(max-width: 768px) {
+
+  .contacts {
+    overflow-x: hidden;
+  }
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+/* ------- FOOTER ------------ */
+.footer {
+background: var(--primary-black);
+color: var(--primary-lightBlue)
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-lightBlue);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-pink);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
