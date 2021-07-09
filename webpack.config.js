@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: path.resolve(__dirname, 'client', 'src', 'Index.tsx'),
+  entry: path.resolve(__dirname, 'client', 'src', 'index.tsx'),
   module: {
     rules: [
       {
