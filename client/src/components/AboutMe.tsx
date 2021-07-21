@@ -30,7 +30,7 @@ const AboutMe = ():ReactElement => {
                 </ul>
               </div>
               <div className="resume">
-                <a href="https://i.ibb.co/rHHJ560/Software-Engineer-Resume.jpg">Click to see my Resume</a>
+                <a href="https://i.ibb.co/PN6JYc4/Resume-HIRpdf.jpg">Click to see my Resume</a>
               </div>
             </div>
           </div>
