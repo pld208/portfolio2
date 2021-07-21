@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import AboutMe from './AboutMe';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import ContactMe from './ContactMe';
 
 const App = (): ReactElement => {
 
@@ -12,6 +15,9 @@ const App = (): ReactElement => {
       <Navbar/>
       <Header/>
       <AboutMe/>
+      <Skills/>
+      <Portfolio/>
+      <ContactMe/>
     </div>
   );
 };
