@@ -6,6 +6,7 @@ import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
 import ContactMe from './ContactMe';
+import Footer from './Footer';
 
 const App = (): ReactElement => {
 
@@ -18,6 +19,7 @@ const App = (): ReactElement => {
       <Skills/>
       <Portfolio/>
       <ContactMe/>
+      <Footer/>
     </div>
   );
 };
