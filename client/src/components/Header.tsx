@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Header = ():any => {
   return (
-    <div id="home" className="header-wrapper">
+    <div id="home" className="header-wrapper" style={{color: "white"}}>
       <div className="main-info">
         <Typed
           className="typed-text"

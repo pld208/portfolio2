@@ -90,6 +90,7 @@ nav {
   text-decoration: none;
   cursor: pointer;
   background-color:rgb(202, 10, 250);
+  color: var(--primary-lightBlue);
 }
 
 .main-info {

@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react';
-//import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
-
+import AboutMe from './AboutMe';
 
 const App = (): ReactElement => {
 
@@ -11,7 +11,7 @@ const App = (): ReactElement => {
 
       <Navbar/>
       <Header/>
-
+      <AboutMe/>
     </div>
   );
 };
