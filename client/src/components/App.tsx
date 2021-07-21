@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 //import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from '../Components/Navbar';
+import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 
 

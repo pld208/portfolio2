@@ -1,7 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
 import '../App.css';
-//import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const Header = ():any => {
   return (
