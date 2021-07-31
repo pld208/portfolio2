@@ -200,8 +200,8 @@ nav {
   color: var(--primary-lime)
 }
 
-.portfolio-image-box {
-  position: relative;
+#portfolio-image-box {
+  display: inline-block;
   margin: 1rem;
 }
 
@@ -216,10 +216,10 @@ nav {
   cursor: pointer;
 }
 
-.portfolio-image-box:hover {
+#portfolio-image-box:hover {
   opacity: 90%;
   transition: 0.3s ease-in-out;
-  background-color: var(--primary-pink)
+  background-color: var(--primary-lime)
 }
 
 .portfolio-icon {

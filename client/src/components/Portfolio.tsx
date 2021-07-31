@@ -52,19 +52,24 @@ const Portfolio = (): ReactElement=> {
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">Portfolio</h1>
-        <div className="image-box-wrapper row justify-content-center">
-          <div className="portfolio-image-box" onClick={popupBoxCC}>
+
+        <div className="image-box-wrapper row justify-content-start">
+          <div className="col-md-6" onClick={popupBoxCC}>
+            <div className="portfolio-image-box">
             <img className="portfolio-image" src="https://i.ibb.co/3BWjMX2/Screen-Shot-2021-04-29-at-11-25-15-AM.png" style={{height: 300, width: 200}} alt="Closet Collections Project"/>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+            </div>
           </div>
 
-          {/* - */}
 
-          <div className="portfolio-image-box" onClick={popupBoxHeadStrong}>
+
+          <div className="col-md-6" onClick={popupBoxHeadStrong}>
+          <div className="portfolio-image-box">
             <img className="portfolio-image" src="https://i.ibb.co/JCyYCnw/Screen-Shot-2021-04-29-at-11-31-16-AM.png" style={{height: 300, width: 200}} alt="HeadStrong Project"/>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+          </div>
           </div>
         </div>
       </div>
