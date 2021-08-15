@@ -5,7 +5,7 @@ import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
-
+//
 const Portfolio = (): ReactElement=> {
 
   const popupBoxCC = () => {
